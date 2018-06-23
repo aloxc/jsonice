@@ -13,7 +13,7 @@ import java.lang.reflect.Method;
 
 /**
  * 通过反射处理ice请求
- * Created by aloxc on 2017/7/18 in project tianya_bbs_movecontent.
+ * Created by aloxc on 2017/7/18.
  */
 public class IceCall {
     private final static Log logger = LogFactory.getLog(IceCall.class);

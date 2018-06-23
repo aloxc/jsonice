@@ -1,5 +1,5 @@
 [["java:package:com.github.aloxc.jsonice"]]
- module component{
+ module testice{
 	 interface Example{
 		string execute(string json);
 	 };

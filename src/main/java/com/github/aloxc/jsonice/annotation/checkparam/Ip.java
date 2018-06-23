@@ -3,7 +3,7 @@ package com.github.aloxc.jsonice.annotation.checkparam;
 import java.lang.annotation.*;
 
 /**
- * Created by aloxc on 2017/3/1 in project tianya_bbs.
+ * Created by aloxc on 2017/3/1.
  */
 @Documented
 @Retention(RetentionPolicy.RUNTIME)

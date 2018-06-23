@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * ice接口方法注释类，用来注释此方法是ice接口方法，被注释的方法的第一个参数应是cn.tianya.ice.JsonRequest
+ * ice接口方法注释类，用来注释此方法是ice接口方法，被注释的方法的第一个参数应是com.github.aloxc.jsonice.io.JsonRequest
  *
  * @author leerohwa@gmail.com
  * @date 2016年6月12日

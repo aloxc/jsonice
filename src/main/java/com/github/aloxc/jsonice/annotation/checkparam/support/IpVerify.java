@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 /**
  * ice 参数ip验证器
- * Created by aloxc on 2017/3/1 in project tianya_bbs.
+ * Created by aloxc on 2017/3/1.
  */
 public class IpVerify implements Verify{
     private final static Log logger = LogFactory.getLog(IpVerify.class);

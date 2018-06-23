@@ -80,7 +80,7 @@ public class ProjectUtil {
 				logger.error("开始初始化context");
 				synchronized (ProjectUtil.class) {
 					if(context == null) {
-						context = new ClassPathXmlApplicationContext("./config/spring-context.xml");
+						context = new ClassPathXmlApplicationContext("./spring-context.xml");
 						context.registerShutdownHook();
 					}
 				}
@@ -132,11 +132,10 @@ public class ProjectUtil {
 			logger.fatal("服务名[" + c.getName() + "." + iceMethod.getName() + "]有冲突，请检查配置！");
 			System.exit(1);
 		}
-//		logger.error("ice方法" + methodName + "\t" + iceMethod + "\t" + instance);
+		logger.error("ice方法" + methodName + "\t" + iceMethod + "\t" + instance);
 		methods.put(methodName, iceMethod);
 		instances.put(methodName, instance);
 		Set<Class<?>> verifyInterfaceSet = ClassUtil.getClasses(PageSize.class.getPackage(),false);
-//		logger.error(JsonUtil.toJson(verifyInterfaceSet));
 		List<Class<?>> verifyList = null;
 		Method indexMethod = null;
 		Class<?> verifyClass = null;
